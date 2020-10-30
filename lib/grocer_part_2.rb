@@ -39,7 +39,6 @@ end
 
 def checkout(cart, coupons)
   new_consolidated_cart = apply_coupons(consolidate_cart(cart), coupons)
-  counter = 0 
   new_consolidated_cart.each do |item| 
     binding.pry
   end
