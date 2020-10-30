@@ -38,8 +38,8 @@ def apply_clearance(cart)
 end
 
 def checkout(cart, coupons)
-  new_consolidated_cart = apply_coupons(consolidate_cart(cart), coupons)
-  new_consolidated_cart.each do |item| 
+  consolidated_cart = consolidate_cart(cart)
+  couponed_item = 
     binding.pry
   end
 end
